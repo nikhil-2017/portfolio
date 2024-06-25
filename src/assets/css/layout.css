@@ -21,26 +21,6 @@
   margin-bottom: 0.5rem;
 }
 
-@media (max-width: 576.98px) {
-  .app-topbar {
-    bottom: 0;
-    top: auto;
-  }
-
-  .app-topbar .topbar-items {
-    gap: 1rem;
-  }
-
-  .app-wrapper .app-content {
-    margin: 10px;
-    margin-bottom: 6rem;
-  }
-
-  .app-home {
-    margin-top: 3rem;
-  }
-}
-
 .topbar-item {
   padding: 0.5rem;
   cursor: pointer;
@@ -66,6 +46,26 @@
 
 .topbar-item span {
   font-size: 2rem;
+}
+
+@media (max-width: 576.98px) {
+  .app-wrapper .app-topbar {
+    bottom: 0;
+    top: auto;
+  }
+
+  .app-topbar .topbar-items {
+    gap: 1rem;
+  }
+
+  .app-wrapper .app-content {
+    margin: 10px;
+    margin-bottom: 6rem;
+  }
+
+  .app-home {
+    margin-top: 3rem;
+  }
 }
 
 .social {
