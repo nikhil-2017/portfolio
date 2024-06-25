@@ -1,0 +1,107 @@
+.app-wrapper .app-topbar {
+  position: fixed;
+  height: 4rem;
+  top: 0;
+  width: 100%;
+  border-bottom: 1px solid var(--surface-border);
+  background-color: var(--surface-ground);
+}
+
+.app-wrapper .app-content {
+  margin-top: 6rem;
+}
+
+.app-topbar-inner .topbar-items {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+@media (max-width: 576.98px) {
+  .app-topbar {
+    bottom: 0;
+    top: auto;
+  }
+
+  .app-topbar .topbar-items {
+    gap: 1rem;
+  }
+
+  .app-wrapper .app-content {
+    margin: 10px;
+    margin-bottom: 6rem;
+  }
+
+  .app-home {
+    margin-top: 3rem;
+  }
+}
+
+.topbar-item {
+  padding: 0.5rem;
+  cursor: pointer;
+  text-decoration: none;
+  color: var(--text-color-secondary);
+  border-radius: 0.5rem;
+  text-align: center;
+  align-items: center;
+  display: flex;
+}
+
+.topbar-item:hover {
+  background-color: var(--surface-border);
+}
+
+.topbar-item.router-link-exact-active {
+  background-color: var(--surface-300);
+}
+
+.topbar-item.router-link-exact-active > span {
+  color: var(--text-color);
+}
+
+.topbar-item span {
+  font-size: 2rem;
+}
+
+.social {
+  text-align: center;
+}
+
+.social-items {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.social-item {
+  padding: 0.5rem;
+  cursor: pointer;
+  text-decoration: none;
+  color: var(--text-color-secondary);
+  border-radius: 0.5rem;
+  text-align: center;
+  align-items: center;
+  display: flex;
+}
+
+.social-item:hover {
+  background-color: var(--surface-border);
+}
+
+.social-item.router-link-exact-active {
+  background-color: var(--surface-300);
+}
+
+.social-item.router-link-exact-active > span {
+  color: var(--text-color);
+}
+
+.social-item span {
+  font-size: 1.5rem;
+}

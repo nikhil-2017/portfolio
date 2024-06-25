@@ -1,0 +1,14 @@
+.heading {
+  color: var(--text-color);
+  font-size: 48px;
+  text-align: center;
+  letter-spacing: 0.75rem;
+  margin-bottom: 0.5rem;
+}
+
+.sub-heading {
+  font-size: 32px;
+  text-align: center;
+  letter-spacing: 0.25rem;
+  margin-bottom: 0.25rem;
+}

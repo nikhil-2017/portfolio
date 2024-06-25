@@ -1,0 +1,39 @@
+@font-face {
+  font-family: 'AmazonEmber';
+  src: url('/fonts/Ember/AmazonEmber_Rg.ttf');
+}
+
+@font-face {
+  font-family: 'AmazonEmber-Italic';
+  src: url('/fonts/Ember/AmazonEmber_RgIt.ttf');
+}
+
+@font-face {
+  font-family: 'AmazonEmber-Bold';
+  src: url('/fonts/Ember/AmazonEmber_Bd.ttf');
+}
+
+@font-face {
+  font-family: 'AmazonEmber-BoldItalic';
+  src: url('/fonts/Ember/AmazonEmber_BdIt.ttf');
+}
+
+@font-face {
+  font-family: 'AmazonEmber-Medium';
+  src: url('/fonts/Ember/AmazonEmber-Medium.ttf');
+}
+
+@font-face {
+  font-family: 'AmazonEmber-MediumItalic';
+  src: url('/fonts/Ember/AmazonEmber-MediumItalic.ttf');
+}
+
+@font-face {
+  font-family: 'AmazonEmber-Light';
+  src: url('/fonts/Ember/AmazonEmber-Light.ttf');
+}
+
+@font-face {
+  font-family: 'AmazonEmber-LightItalic';
+  src: url('/fonts/Ember/AmazonEmber-LightItalic.ttf');
+}

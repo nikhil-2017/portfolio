@@ -1,0 +1,48 @@
+@import url(base.css);
+@import url(fonts/Inter.css);
+@import url(fonts/AmazonEmber.css);
+@import url(layout.css);
+@import url(text.css);
+
+body {
+  font-family: var(--app-font-family);
+  font-weight: normal;
+  margin: 0;
+  color: var(--text-color-secondary);
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+@media (min-width: 992.98px) {
+  .container {
+    max-width: 960px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+@media (min-width: 1400px) {
+  .container {
+    max-width: 1320px;
+  }
+}
+
+.container {
+  margin-right: auto;
+  margin-left: auto;
+}
