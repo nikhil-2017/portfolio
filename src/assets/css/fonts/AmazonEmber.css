@@ -20,20 +20,20 @@
 
 @font-face {
   font-family: 'AmazonEmber-Medium';
-  src: url('/fonts/Ember/AmazonEmber-Medium.ttf');
+  src: url('/fonts/Ember/Amazon-Ember-Medium.ttf');
 }
 
 @font-face {
   font-family: 'AmazonEmber-MediumItalic';
-  src: url('/fonts/Ember/AmazonEmber-MediumItalic.ttf');
+  src: url('/fonts/Ember/Amazon-Ember-MediumItalic.ttf');
 }
 
 @font-face {
   font-family: 'AmazonEmber-Light';
-  src: url('/fonts/Ember/AmazonEmber-Light.ttf');
+  src: url('/fonts/Ember/AmazonEmber_Lt.ttf');
 }
 
 @font-face {
   font-family: 'AmazonEmber-LightItalic';
-  src: url('/fonts/Ember/AmazonEmber-LightItalic.ttf');
+  src: url('/fonts/Ember/AmazonEmber_LtIt.ttf');
 }

@@ -57,6 +57,7 @@ router.afterEach((to) => {
   var pageTitle = to?.meta?.title
   if (pageTitle != undefined && pageTitle != null && pageTitle != '')
     document.title = `${pageTitle} - ${Config.APP_NAME}`
+  else document.title = Config.APP_NAME
 })
 
 export default router
