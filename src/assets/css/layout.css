@@ -5,6 +5,7 @@
   width: 100%;
   border-bottom: 1px solid var(--surface-border);
   background-color: var(--surface-ground);
+  z-index: 1000;
 }
 
 .app-wrapper .app-content {
