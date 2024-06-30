@@ -4,6 +4,7 @@
 @import url(layout.css);
 @import url(text.css);
 @import url(link.css);
+@import url(carousel.css);
 
 body {
   font-family: var(--app-font-family);
