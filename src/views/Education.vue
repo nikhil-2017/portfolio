@@ -14,8 +14,9 @@
                             </div>
                             <div class="col-9 my-auto">
                                 <div class="grid">
-                                    <div class="col-12 name"><a class="link" target="_blank" :href="item.link">{{
-                                        item.name }}</a></div>
+                                    <div class="col-12 name"><a class="link"
+                                            :target="(item?.target) ? item.target : '_self'" :href="item.link">{{
+                                                item.name }}</a></div>
                                 </div>
                                 <div class="grid">
                                     <div class="col-6">{{ item.date }}</div>
